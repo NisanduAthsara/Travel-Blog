@@ -59,6 +59,7 @@ nav {
     height: 80px; 
     width: 100%; 
     position: fixed;
+    z-index: 999;
 }
     label.logo{ 
     	position: absolute;
@@ -123,10 +124,10 @@ nav {
     }
     ul{
         position: fixed;
-        width: 100%;
+        width: 110%;
         height: 100vh;
         top: 80px;
-        right: -100%;
+        right: -110%;
         top: 80px;
         margin-right: -20px;
         transition: all .5s;
@@ -495,6 +496,7 @@ nav {
 .readmore-places-p1{
 	margin-top:20px;
 	color: #7b8ca0;
+	line-height: 200%;
 }
 
 .inner-readmore-places{
@@ -502,7 +504,8 @@ nav {
 }
 
 .readmore-places-fl{
-	font-size:40px;
+	font-size: xx-large;
+	font-weight:bold;
 }
 
 @media screen and (max-width:710px){
